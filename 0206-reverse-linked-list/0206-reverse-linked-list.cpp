@@ -10,6 +10,17 @@
  */  
 class Solution {
 public:
+
+    ListNode* Reverse(ListNode* curr, ListNode* prev){
+        if(curr == NULL)
+        return prev;
+
+        ListNode* fut = curr->next;
+        curr -> next = prev;
+
+        return Reverse(fut, curr);
+    }
+
     ListNode* reverseList(ListNode* head) {
        /*  vector<int>ans;
         ListNode *temp = head;
@@ -28,7 +39,7 @@ public:
         }
         return head; */
 
-        ListNode* curr = head, *prev = NULL, *fut = NULL;
+        /* ListNode* curr = head, *prev = NULL, *fut = NULL;
 
         while(curr){
             fut = curr -> next;
@@ -37,7 +48,9 @@ public:
             curr = fut;
         }
         head = prev;
-        return head;
+        return head; */
+
+        return Reverse(head, NULL);
 
     }
 };
