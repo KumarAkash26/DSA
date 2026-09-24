@@ -57,8 +57,8 @@ public:
     } */
     
 
-   /*  if(head -> next == NULL)
-    return 1; */
+    if(head -> next == NULL)
+    return 1;
 
     ListNode*temp = head;
 
