@@ -11,7 +11,7 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
-        if(head->next==NULL)
+       /*  if(head->next==NULL)
         return 1;
 
         ListNode*temp = head;
@@ -54,5 +54,37 @@ public:
             head2 = head2->next;
         }
         return 1;
+    } */
+    
+
+    if(head -> next == NULL)
+    return 1;
+
+    ListNode*temp = head;
+
+    vector<int>arr;
+
+    while(temp)
+    {
+        arr.push_back(temp->val);
+        temp = temp -> next;
+    }
+
+    
+
+    int i = 0, j = arr.size()-1;
+
+    while(i<=j)
+    {
+        if(arr[i]==arr[j]){
+            i++;
+            j--;
+        }
+        else{
+            return 0;
+        }
+    }
+    return 1;
+    
     }
 };
