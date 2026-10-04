@@ -45,18 +45,34 @@ class Solution {
         
         return head -> next;
     }
+    
+    void mergesort(vector<Node*>& arr, int start, int end)
+    {
+        if(start>=end)
+        return;
+        
+        int mid = start + (end-start)/2;
+        
+        mergesort(arr,start, mid);
+        mergesort(arr, mid+1, end);
+        
+        arr[start] = merge(arr[start], arr[mid + 1]);
+    }
   
   
   
     Node* mergeKLists(vector<Node*>& arr) {
         // code here
-        Node* head = arr[0];
+        // Node* head = arr[0];
         int k = arr.size();
-        for(int i = 1; i < k; i++)
-        {
-            head = merge(head, arr[i]);
-        }
-        return head;
+        // for(int i = 1; i < k; i++)
+        // {
+        //     head = merge(head, arr[i]);
+        // }
+        // return head;
+        
+        mergesort(arr, 0, k-1);
+        return arr[0];
     }
 };
 
