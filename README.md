@@ -21,12 +21,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/KumarAkash26/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0042-trapping-rain-water](https://github.com/KumarAkash26/DSA/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/KumarAkash26/DSA/tree/master/0061-rotate-list) |
 | [0234-palindrome-linked-list](https://github.com/KumarAkash26/DSA/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/KumarAkash26/DSA/tree/master/0876-middle-of-the-linked-list) |
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/KumarAkash26/DSA/tree/master/0042-trapping-rain-water) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/KumarAkash26/DSA/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Math
 |  |
@@ -43,5 +45,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/KumarAkash26/DSA/tree/master/0042-trapping-rain-water) |
 | [0234-palindrome-linked-list](https://github.com/KumarAkash26/DSA/tree/master/0234-palindrome-linked-list) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/KumarAkash26/DSA/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/KumarAkash26/DSA/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
