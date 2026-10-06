@@ -14,17 +14,17 @@ class Node {
 class Solution {
     
   public:
-   Node* Find(Node* curr1, Node* curr2, Node* x)
-    {
-        if(x==NULL)
-        return NULL;
+//   Node* Find(Node* curr1, Node* curr2, Node* x)
+//     {
+//         if(x==NULL)
+//         return NULL;
         
-        while(curr1!=x){
-            curr1 = curr1->next;
-            curr2 = curr2-> next;
-        }
-        return curr2;
-    };
+//         while(curr1!=x){
+//             curr1 = curr1->next;
+//             curr2 = curr2-> next;
+//         }
+//         return curr2;
+//     };
   
     Node* cloneLinkedList(Node* head) {
         // code here
@@ -46,13 +46,34 @@ class Solution {
         tailCopy = headCopy;
         temp = head;
         
+    //     while(temp)
+    //     {
+    //         tailCopy -> random = Find(head, headCopy, temp -> random);
+    //         tailCopy = tailCopy -> next;
+    //         temp = temp -> next;
+    //     }
+    //     return headCopy;0
+        unordered_map<Node*, Node*>m;
+        
         while(temp)
         {
-            tailCopy -> random = Find(head, headCopy, temp -> random);
+            m[temp] = tailCopy;
+            temp = temp -> next;
+            tailCopy = tailCopy -> next;
+        };
+        
+        tailCopy = headCopy;
+        temp = head;
+        
+        while(temp)
+        {
+            tailCopy -> random = m[temp -> random];
             tailCopy = tailCopy -> next;
             temp = temp -> next;
-        }
+        };
+        
         return headCopy;
+    
     }
 };
 
