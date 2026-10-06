@@ -46,33 +46,50 @@ class Solution {
         tailCopy = headCopy;
         temp = head;
         
-    //     while(temp)
-    //     {
-    //         tailCopy -> random = Find(head, headCopy, temp -> random);
-    //         tailCopy = tailCopy -> next;
-    //         temp = temp -> next;
-    //     }
-    //     return headCopy;0
-        unordered_map<Node*, Node*>m;
         
-        while(temp)
+        Node* curr1 = head, *curr2 = headCopy;
+        Node*front1, *front2;
+        
+        while(curr1)
         {
-            m[temp] = tailCopy;
-            temp = temp -> next;
-            tailCopy = tailCopy -> next;
-        };
+            front1 = curr1 -> next;
+            front2 = curr2 -> next;
+            
+            curr1 -> next = curr2;
+            curr2 -> next = front1;
+            
+            curr1 = front1;
+            curr2 = front2;
+        }
         
-        tailCopy = headCopy;
-        temp = head;
+        //assign random pointer to cloned ll
         
-        while(temp)
+        curr1 = head;
+        while(curr1)
         {
-            tailCopy -> random = m[temp -> random];
-            tailCopy = tailCopy -> next;
-            temp = temp -> next;
-        };
+            curr2 = curr1 -> next;
+            if(curr1 -> random)
+            
+            curr2 -> random = curr1 -> random -> next;
+            
+            curr1 = curr2 -> next;
+            
+            
+        }
+        
+        //break the ll
+        
+        curr1 = head;
+        while(curr1 -> next)
+        {
+            front1 = curr1 -> next;
+            curr1 -> next = front1 -> next;
+            curr1 = front1;
+        }
         
         return headCopy;
+        
+        
     
     }
 };
