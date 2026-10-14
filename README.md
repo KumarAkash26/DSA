@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/KumarAkash26/DSA/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/KumarAkash26/DSA/tree/master/0042-trapping-rain-water) |
 ## Monotonic Stack
 |  |
@@ -67,10 +68,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/KumarAkash26/DSA/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/KumarAkash26/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/KumarAkash26/DSA/tree/master/0047-permutations-ii) |
 ## Sorting
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/KumarAkash26/DSA/tree/master/0047-permutations-ii) |
+## String
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/KumarAkash26/DSA/tree/master/0022-generate-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/KumarAkash26/DSA/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
