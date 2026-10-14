@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/KumarAkash26/DSA/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/KumarAkash26/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/KumarAkash26/DSA/tree/master/0047-permutations-ii) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/KumarAkash26/DSA/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Math
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/KumarAkash26/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/KumarAkash26/DSA/tree/master/0047-permutations-ii) |
 ## Sorting
 |  |
