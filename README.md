@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/KumarAkash26/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/KumarAkash26/DSA/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/KumarAkash26/DSA/tree/master/0078-subsets) |
+| [0912-sort-an-array](https://github.com/KumarAkash26/DSA/tree/master/0912-sort-an-array) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/KumarAkash26/DSA/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Math
 |  |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/KumarAkash26/DSA/tree/master/0047-permutations-ii) |
+| [0912-sort-an-array](https://github.com/KumarAkash26/DSA/tree/master/0912-sort-an-array) |
 ## String
 |  |
 | ------- |
@@ -89,4 +91,28 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/KumarAkash26/DSA/tree/master/0078-subsets) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/KumarAkash26/DSA/tree/master/0912-sort-an-array) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/KumarAkash26/DSA/tree/master/0912-sort-an-array) |
+## Merge Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/KumarAkash26/DSA/tree/master/0912-sort-an-array) |
+## Bucket Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/KumarAkash26/DSA/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/KumarAkash26/DSA/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/KumarAkash26/DSA/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
