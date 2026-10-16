@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0206-reverse-linked-list](https://github.com/KumarAkash26/DSA/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/KumarAkash26/DSA/tree/master/0234-palindrome-linked-list) |
+| [0509-fibonacci-number](https://github.com/KumarAkash26/DSA/tree/master/0509-fibonacci-number) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/KumarAkash26/DSA/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Two Pointers
 |  |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/KumarAkash26/DSA/tree/master/0007-reverse-integer) |
 | [0258-add-digits](https://github.com/KumarAkash26/DSA/tree/master/0258-add-digits) |
+| [0509-fibonacci-number](https://github.com/KumarAkash26/DSA/tree/master/0509-fibonacci-number) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/KumarAkash26/DSA/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
@@ -59,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/KumarAkash26/DSA/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/KumarAkash26/DSA/tree/master/0042-trapping-rain-water) |
+| [0509-fibonacci-number](https://github.com/KumarAkash26/DSA/tree/master/0509-fibonacci-number) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -115,4 +118,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/KumarAkash26/DSA/tree/master/0912-sort-an-array) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/KumarAkash26/DSA/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
