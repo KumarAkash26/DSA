@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/KumarAkash26/DSA/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/KumarAkash26/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/KumarAkash26/DSA/tree/master/0047-permutations-ii) |
+| [0078-subsets](https://github.com/KumarAkash26/DSA/tree/master/0078-subsets) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/KumarAkash26/DSA/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Math
 |  |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/KumarAkash26/DSA/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/KumarAkash26/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/KumarAkash26/DSA/tree/master/0047-permutations-ii) |
+| [0078-subsets](https://github.com/KumarAkash26/DSA/tree/master/0078-subsets) |
 ## Sorting
 |  |
 | ------- |
@@ -83,4 +85,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/KumarAkash26/DSA/tree/master/0022-generate-parentheses) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/KumarAkash26/DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
